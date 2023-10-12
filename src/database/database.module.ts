@@ -12,7 +12,7 @@ export const dataSourceOptions: DataSourceOptions = {
   password: '123',
   database: 'devtraing',
   entities: [Course, Tag],
-  synchronize: true,
+  synchronize: false,
 };
 
 @Module({
